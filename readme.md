@@ -38,3 +38,121 @@ Signed into 'My Apps' panel under user account
 Given unique token for user account SSO
 ![Alt Text](screenshots/sso4.png)
 Granted access to tool-kit
+
+🛡️ Conditional Access Policies
+
+Policy 1: Require MFA
+	•	Scope: All users
+	•	Grant Control: Require multi-factor authentication
+
+Policy 2: Admin Protection
+	•	Scope: Admin roles
+	•	Controls:
+	•	Require MFA
+	•	Block legacy authentication
+
+Policy 3: Risk-Based Access
+	•	Condition: High sign-in risk
+	•	Action: Block access
+
+⸻
+
+🔑 Authentication (MFA)
+	•	Enabled via Authentication Methods
+	•	Tested with:
+	•	Microsoft Authenticator
+	•	Validated:
+	•	MFA prompts
+	•	Login success/failure flows
+
+⸻
+
+🧾 Identity Governance
+
+Access Reviews
+	•	Scope: SG-Engineering
+	•	Reviewer: Admin
+	•	Action:
+	•	Approved/denied access
+
+Entitlement Management
+	•	Created Access Package:
+	•	“New Hire Bundle”
+	•	Includes:
+	•	Group membership
+	•	Application access
+
+⸻
+
+📊 Monitoring & Logging
+
+Sign-in Logs
+
+Used to analyze:
+	•	Failed login attempts
+	•	MFA challenges
+	•	Conditional Access enforcement
+
+Audit Logs
+
+Tracked:
+	•	User changes
+	•	Group assignments
+	•	Policy updates
+
+⸻
+
+🧪 Troubleshooting Scenarios
+
+Scenario 1: User cannot access application
+
+Steps:
+	•	Verify group membership
+	•	Confirm app assignment
+	•	Check Conditional Access policies
+
+⸻
+
+Scenario 2: MFA not prompting
+
+Steps:
+	•	Review Conditional Access scope
+	•	Confirm policy targeting
+	•	Validate authentication methods
+
+⸻
+
+Scenario 3: Account blocked
+
+Steps:
+	•	Check sign-in logs
+	•	Identify risk conditions
+	•	Review applied policies
+
+⸻
+
+🧠 Key Takeaways
+	•	Group-based access is critical for scalable IAM
+	•	Conditional Access is the primary enforcement layer
+	•	Logs are essential for troubleshooting authentication issues
+	•	Identity Governance enables lifecycle management
+
+⸻
+
+🚀 Skills Demonstrated
+	•	Microsoft Entra ID administration
+	•	IAM policy design
+	•	SSO configuration (SAML)
+	•	Conditional Access implementation
+	•	MFA deployment
+	•	Identity Governance workflows
+	•	Authentication troubleshooting
+
+⸻
+
+🔧 Future Enhancements
+	•	Hybrid identity integration (on-prem AD + sync)
+	•	Privileged Identity Management (PIM)
+	•	Automated provisioning (SCIM)
+	•	Integration with additional SaaS applications
+
