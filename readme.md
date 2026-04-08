@@ -14,3 +14,4 @@ The lab demonstrates
 *  Build job-ready IAM experience
 
 # Users
+![Alt Text](screenshots/users.png)
