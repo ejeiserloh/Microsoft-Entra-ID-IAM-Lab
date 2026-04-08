@@ -113,9 +113,9 @@ Steps:
 **Scenario 3: Account blocked**
 
 Steps:
-	•	Check sign-in logs
-	•	Identify risk conditions
-	•	Review applied policies
+*  Check sign-in logs
+*  Identify risk conditions
+*  Review applied policies
 
 
 
