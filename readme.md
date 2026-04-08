@@ -13,5 +13,10 @@ The lab demonstrates
 *  Simulate real IAM support scenarios
 *  Build job-ready IAM experience
 
-# Users
+# User setup
 ![Alt Text](screenshots/users.png)
+My account is the Global Admin and the rest are simulated employees
+
+# Group Design
+![Alt Text](screenshots/groups.png)
+Model: User -> Group -> Resource
