@@ -1,4 +1,4 @@
-# Microsoft Entra ID IAM Lab
+# 📘 Microsoft Entra ID IAM Lab
 
 The lab demonstrates
 *  Role-based access control (RBAC)
@@ -7,21 +7,21 @@ The lab demonstrates
 *  Identity Governance (Access Reviews, Entitlements)
 *  Authentication troubleshooting using audit logs
 
-# Objectives 
+# 🎯 Objectives 
 *  Implement group-based access control
 *  Configure secure authentication flows
 *  Simulate real IAM support scenarios
 *  Build job-ready IAM experience
 
-# User setup
+# 👤 User setup
 ![Alt Text](screenshots/users.png)
 My account is the Global Admin and the rest are simulated employees
 
-# Group Design
+# 👥 Group Design
 ![Alt Text](screenshots/groups.png)
 Model: User -> Group -> Resource
 
-# Access Management
+# 🔐 Access Management
 **Enterprise Application (SSO)**
 *  Configured test application (SAML-based)
 *  Group-based assignement
