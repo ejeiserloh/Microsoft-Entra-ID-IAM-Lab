@@ -32,7 +32,9 @@ Model: User -> Group -> Resource
 *  Improves scalability and auditability
 
 
-![Alt Text](screenshots/sso1.png)
 ![Alt Text](screenshots/sso2.png)
+Signed into 'My Apps' panel on user account
 ![Alt Text](screenshots/sso3.png)
+Given unique token for user account SSO
 ![Alt Text](screenshots/sso4.png)
+Granted access to test tool-kit
