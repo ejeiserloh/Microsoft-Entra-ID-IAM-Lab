@@ -26,6 +26,7 @@ Model: User -> Group -> Resource
 *  Configured test application (SAML-based)
 *  Group-based assignement
 *  Engineering group -> App access
+
 **Key Concept**
 *  Eliminates direct user-to-app assignments
 *  Improves scalability and auditability
