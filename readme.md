@@ -29,6 +29,8 @@ Model: User -> Group -> Resource
 **Key Concept**
 *  Eliminates direct user-to-app assignments
 *  Improves scalability and auditability
+
+
 ![Alt Text](screenshots/sso1.png)
 ![Alt Text](screenshots/sso2.png)
 ![Alt Text](screenshots/sso3.png)
