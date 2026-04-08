@@ -33,8 +33,8 @@ Model: User -> Group -> Resource
 
 
 ![Alt Text](screenshots/sso2.png)
-Signed into 'My Apps' panel on user account
+Signed into 'My Apps' panel under user account
 ![Alt Text](screenshots/sso3.png)
 Given unique token for user account SSO
 ![Alt Text](screenshots/sso4.png)
-Granted access to test tool-kit
+Granted access to tool-kit
