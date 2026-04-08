@@ -20,3 +20,16 @@ My account is the Global Admin and the rest are simulated employees
 # Group Design
 ![Alt Text](screenshots/groups.png)
 Model: User -> Group -> Resource
+
+# Access Management
+**Enterprise Application (SSO)**
+*  Configured test application (SAML-based)
+*  Group-based assignement
+*  Engineering group -> App access
+**Key Concept**
+*  Eliminates direct user-to-app assignments
+*  Improves scalability and auditability
+![Alt Text](screenshots/sso1.png)
+![Alt Text](screenshots/sso2.png)
+![Alt Text](screenshots/sso3.png)
+![Alt Text](screenshots/sso4.png)
