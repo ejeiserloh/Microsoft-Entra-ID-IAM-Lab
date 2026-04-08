@@ -84,9 +84,9 @@ Granted access to tool-kit
 
 
 **Audit Logs Tracked:**
-	•	User changes
-	•	Group assignments
-	•	Policy updates
+*  User changes
+*  Group assignments
+*  Policy updates
 
 
 
